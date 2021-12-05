@@ -1,0 +1,158 @@
+﻿- class_name: 网站搭建
+  class_desc: 特别感谢
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-cn/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网站框架
+    - name: Butterfly
+      link: https://butterfly.js.org/      
+      avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/butterfly-github-avatar.png
+      descr: 本站主题，真好看
+
+- class_name: 特别感谢
+  class_desc: 特别感谢
+  link_list:
+    - name: 虫不知喔
+      link: https://blog.ssykawa.com
+      avatar:  https://blog.ssykawa.com/img/avatar.png
+      descr: 提供了API等支持
+    - name: 学渣的小窝
+      link: https://onexuezha.vercel.app/
+      avatar: https://cdn.jsdelivr.net/gh/onexuezha/blog_img/tou_xiang.jpg
+      descr: 提出本站的缺陷，并帮助改正，亦师亦友。
+
+- class_name: 大佬们
+  class_desc: 这是一群大佬哦！
+  link_list:
+    - name: 小康博客
+      link: https://www.antmoe.com/
+      avatar: https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/avatar.jpg
+      descr: 一个收藏回忆与分享技术的地方
+    - name: 呆逼の博客
+      link: https://blog.keepdai.cn/
+      avatar: https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/logo.png
+      descr: 一个初中生的博客
+    - name: 小冰博客
+      link: https://zfe.one
+      avatar: https://cdn.jsdelivr.net/gh/Kindle-deep/image@main/headimage.png
+      descr: 做个有梦想的人！
+    - name: Ethan.Tzy
+      link: https://ethant.top/
+      avatar: https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/theme_f/avater.jpg
+      descr: 学习与交流的乐园,希望能和你成为好朋友.
+    - name: Chaospring
+      link: https://chaospring.com
+      avatar: https://cdn.jsdelivr.net/gh/JhonCX/gallery@main/file/avatar.jpg
+      descr: 一个小站，期待着能有客人到来~
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      avatar: https://akilar.top/img/siteicon/favicon.png
+      descr: 期待您的光临！
+    - name: guole's Blog
+      link: https://guole.fun/
+      avatar: https://guole.fun/img/gl.jpg
+      descr: 保持理智，相信明天。
+      
+- class_name: 小伙伴们
+  class_desc: 那些人，那些事
+  link_list:
+    - name: 祁尧
+      link: https://69asgard.github.io/
+      avatar: https://69asgard.github.io/images/avatar.gif
+      descr: 这人随缘，没有自我介绍
+    - name: Rainy
+      link: https://yxzi.xyz/
+      avatar: https://yxzi.xyz/Pic/Avatar.png
+      descr: 这人随缘，没有自我介绍
+    - name: 虫不知喔
+      link: https://blog.ssykawa.com
+      avatar:  https://blog.ssykawa.com/img/avatar.png
+      descr: 我要的正能量会发光！
+    - name: 学渣的小窝
+      link: https://onexuezha.vercel.app/
+      avatar: https://cdn.jsdelivr.net/gh/onexuezha/blog_img/tou_xiang.jpg
+      descr: 我在进步
+    - name: 架在树莓派上的猫
+      link: https://leafmay.top/
+      avatar: https://z3.ax1x.com/2021/10/22/5c8Pl8.png
+      descr: 猫窝看猫
+    - name: 辰旭の北岛之诗
+      link: https://losemine.com/
+      avatar: https://cdn.jsdelivr.net/gh/Karensky/cdn@master/1628740117208.png
+      descr: In me, past, present, future meet
+    - name: 学金融的文科生
+      link: https://caoyongzhuo.cn
+      avatar: https://cdn.jsdelivr.net/gh/TonaSmith/picture@latest/img/lko.jpg
+      descr: 一个喜欢计算机但是学金融的大三学生自留地，偶尔会分享一些自己喜欢的东西或者上来吐个槽，有缘的话，你我现在已经相见！
+    - name: 自己人のBlog
+      link: https://www.pyhdxy.com
+      avatar: https://www.pyhdxy.top:233/index.php/s/MeCNeCnx9sGoTQp/preview
+      descr: 随便发一点教程类文章~
+    - name: SlmieのBlog
+      link: https://slmie.top/
+      avatar: https://z3.ax1x.com/2021/11/03/IAVt9U.png
+      descr: SlmieのBlog
+    - name: 琛AlexのBlog
+      link: https://www.chenalex.club
+      avatar: https://z3.ax1x.com/2021/10/07/5pRiYn.png
+      descr: 有志者事竟成
+    - name: 花语阁
+      link: https://www.pigax.cn
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=2033008907&s=640
+      descr: 花语清城江无月
+    - name: 上杉稚Official
+      link: https://blog.ultraxs.cn
+      avatar: https://cdn.jsdelivr.net/gh/Immortal68/ImgCloud/Pic/头像.jpg
+      descr: 十年饮冰，难凉热血
+    - name: 王先森
+      link: https://www.boysec.cn
+      avatar: https://images.boysec.cn/medias/avatar.jpg
+      descr: 运维与安全从业者！
+      siteshot: https://cdn.jsdelivr.net/gh/5279314/ScreenShot@gh-pages/www.boysec.cn.jpg
+    - name: Eacls
+      link: https://www.eacls.top
+      avatar: https://z3.ax1x.com/2021/11/14/IcaF6U.png
+      descr: 看一看世界的繁华
+    - name: Kaiboshi
+      link: https://kaiboshi.gitee.io/
+      avatar: https://cdn.jsdelivr.net/gh/kaiboshi/kaiboshi.github.io/medias/logo66.png
+      descr: 做一个有梦想的咸鱼
+    - name: 许方言の小宅
+      link: https://xfy.vess.ltd
+      avatar: https://xfy.vess.ltd/wp-content/uploads/2021/09/avatard.png
+      descr: 不去尝试的话，永远没有机会！
+    - name: 来风的博客
+      link: https://laifeng.xyz
+      avatar: https://laifeng.xyz/wp-content/uploads/2021/11/touxiang.jpeg
+      descr: 失有所悟，梦有所想。
+    - name: HuRan Blog
+      link: https://blog.huran.xyz
+      avatar: https://img.huran.xyz/huran.jpg
+      descr: 长风破浪会有时 直挂云帆济沧海
+    - name: 青葱雅亭
+      link: https://www.itciraos.cn
+      avatar: https://cdn.jsdelivr.net/gh/ciraos/File-agent@main/img/avatar.webp
+      descr: DARE & DO
+      siteshot: https://cdn.jsdelivr.net/gh/ciraos/File-agent@main/img/site-shot.png
+    - name: 锦瑟的糖果屋
+      link: https://www.ijinse.cn
+      avatar: https://www.ijinse.cn/logo.png
+      descr: 锦瑟无端五十弦 一弦一柱思华年
+    - name: Mr M
+      link: https://mrzym.gitee.io/
+      avatar: https://mrzym.gitee.io/blogimg/head/head.png
+      descr: 陪你看日落的人，比日落本身更温柔。
+    - name: Shiina_Mashir
+      link: https://www.travele.top:10086
+      avatar: https://www.travele.top:10086/wp-content/uploads/2021/11/27458_4K-scaled.jpg
+      descr: 学如弓弩，才如箭镞！
+    - name: Xin's Blog
+      link: https://blog.xinmouren.cn
+      avatar: https://info.xinmouren.cn/custom.gif
+      descr: 嵌入式的日子真不好过！
+      siteshot: https://info.xinmouren.cn/shoot.png
+    - name: Cu Blog
+      link: https://www.litcu.cn
+      avatar: https://imgs.litcu.cn/images/2021/11/29/6424d841e214cbaadabc9eb376f66be1.jpg
+      descr: 未来不迎，当下不杂，既往不恋。
