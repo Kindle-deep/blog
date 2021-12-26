@@ -1,7 +1,7 @@
 /* 自定义字体 */
 @font-face {
     font-family: 'love';
-    src: url(' https://cdn.jsdelivr.net/gh/Kindle-deep/image@main/love.ttf');
+    src: url(' https://unpkg.zhimg.com/cdn-npm@1.0.2//love.ttf');
 }
 
 h1#site-title {
@@ -312,13 +312,13 @@ ul.menus_item_child {
 }
 
 body {
-    cursor: url(https://cdn.jsdelivr.net/npm/kang-static/Hexo/img/default.cur), default
+    cursor: url(https://unpkg.zhimg.com/cdn-npm@1.0.2/default.cur), default
 }
 
 a,
 button,
 img {
-    cursor: url(https://cdn.jsdelivr.net/npm/kang-static/Hexo/img/pointer.cur), default
+    cursor: url(https://unpkg.zhimg.com/cdn-npm@1.0.2/pointer.cur), default
 }
 
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
