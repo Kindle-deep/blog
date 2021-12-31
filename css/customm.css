@@ -1,18 +1,12 @@
 /* 自定义字体 */
 @font-face {
     font-family: 'love';
-    src: url(' https://unpkg.zhimg.com/cdn-npm@1.0.2//love.ttf');
+    src: url('https://unpkg.zhimg.com/cdn-npm@1.0.4/shouxieti.ttf');
 }
 
 h1#site-title {
   font-family: 'love', sans-serif;
 }
-
-
-#article-container .fancybox img {
-    margin: 0 !important
-}
-
 svg.icon {
   /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */
    width: 1em; height: 1em;
@@ -381,4 +375,9 @@ a>img,
 .justified-gallery>div>a>svg,
 .justified-gallery>figure>a>svg {
     position: static !important
+}
+
+#pio {
+  width: 240px !important;
+  height: 240px !important;
 }
