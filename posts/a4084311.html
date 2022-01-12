@@ -297,7 +297,7 @@ bds for windows
 如果您想同时在一台电脑上运行服务端和客户端，并且想通过客户端直接连接本地的话，可能会遇到一些问题：某些 Windows 版本默认不允许 UWP 应用形成本地回环，需要手动解除限制。
 
 <p>请使用管理员权限在 PowerShell 中执行以下命令并重启电脑：</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">CheckNetIsolation.exe LoopbackExempt –a –p<span class="token operator">=</span>S-1-15-2-1958404141-86561845-1752920682-3514627264-368642714-62675701-733520436<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">CheckNetIsolation.exe LoopbackExempt –a –p=S-1-15-2-1958404141-86561845-1752920682-3514627264-368642714-62675701-733520436<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>然后bds核心的服务器就开好了<br>接下来就是linux的了</p>
 <p>开服之前<br>1.一个可用的 frpc<br>2.最新版本的 BDS-Linux 核心<br>3.一台装载着 Ubuntu 18.04 或更高版本的操作系统的电脑<br>4.CPU 核心数大于等于 2 核，1GB RAM</p>
 <p>开服配置<br>请参考 BDS on Windows 章节中的 开服配置 。</p>
