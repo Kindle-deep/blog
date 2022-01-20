@@ -291,7 +291,7 @@ die(header("Location: $pic"));
       init()
       bool && $countDom && setTimeout(getCount,0)
     } else {
-      getScript('https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js').then(()=> {
+      getScript('https://unpkg.zhimg.com/huran/js/twikoo/dist/twikoo.all.min.js').then(()=> {
         init()
         bool && $countDom && setTimeout(getCount,0)
       })
@@ -374,7 +374,7 @@ if ('Twikoo' === 'Waline' || !true) {
     if (typeof twikoo === 'object') {
       runTwikoo()
     } else {
-      getScript('https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js').then(runTwikoo)
+      getScript('https://unpkg.zhimg.com/huran/js/twikoo/dist/twikoo.all.min.js').then(runTwikoo)
     }
   }
 
