@@ -235,20 +235,6 @@
   </url>
   
   <url>
-    <loc>https://blog.knlde.top/tags/%E5%9F%BA%E5%B2%A9%E7%89%88/</loc>
-    <lastmod>2022-01-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.knlde.top/tags/BDS/</loc>
-    <lastmod>2022-01-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.knlde.top/tags/Hexo/</loc>
     <lastmod>2022-01-22</lastmod>
     <changefreq>daily</changefreq>
@@ -257,6 +243,20 @@
   
   <url>
     <loc>https://blog.knlde.top/tags/%E7%BE%8E%E5%8C%96/</loc>
+    <lastmod>2022-01-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.knlde.top/tags/%E5%9F%BA%E5%B2%A9%E7%89%88/</loc>
+    <lastmod>2022-01-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.knlde.top/tags/BDS/</loc>
     <lastmod>2022-01-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
