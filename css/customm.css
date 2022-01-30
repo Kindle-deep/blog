@@ -1,7 +1,7 @@
 /* 自定义字体 */
 @font-face {
     font-family: 'love';
-    src: url('https://unpkg.zhimg.com/cdn-npm@1.0.4/shouxieti.ttf');
+    src: url('https://npm.elemecdn.com/cdn-npm@1.0.4/shouxieti.ttf');
 }
 
 h1#site-title {
@@ -306,13 +306,13 @@ ul.menus_item_child {
 }
 
 body {
-    cursor: url(https://unpkg.zhimg.com/cdn-npm@1.0.2/default.cur), default
+    cursor: url(https://npm.elemecdn.com/cdn-npm@1.0.2/default.cur), default
 }
 
 a,
 button,
 img {
-    cursor: url(https://unpkg.zhimg.com/cdn-npm@1.0.2/pointer.cur), default
+    cursor: url(https://npm.elemecdn.com/cdn-npm@1.0.2/pointer.cur), default
 }
 
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
