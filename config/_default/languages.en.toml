@@ -1,0 +1,29 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Chinyuan Tai"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/avatar.png"
+  # secondaryLogo = "img/secondary-logo.png"
+   description = "LOVE&PEACE"
+   copyright = "CC BY-NC-SA 4.0"
+
+[params.author]
+   name = "Chinyuan Tai"
+   email = "chinyuan@knlde.top"
+   image = "img/avatar.png"
+   imageQuality = 100
+   headline = "LOVE & PEACE"
+   bio = "LOVE&PEACE"
+   links = [
+     { email = "mailto:chinyuan@knlde.top" },
+     { github = "https://github.com/Kindle-deep" },
+     { telegram = "https://t.me/chinyuantai" },
+     { x-twitter = "https://x.com/chinyuantai" },
+   ]
