@@ -1,5 +1,325 @@
-@import https://jsd.onmicrosoft.cn/npm/lxgw-wenkai-screen-web/style.css
+/*代码块容器样式 */
 
-body {
-      font-family: "LXGW WenKai Screen";
-      font-weight: normal;
+.highlight {
+
+    max-width: 100%;
+
+    position: relative;
+
+    border-radius: 10px;
+
+    margin-left: -5px;
+
+    margin-right: -10px;
+
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+    overflow: hidden;
+
+  }
+
+  /* 添加 macOS 风格的标题栏 */
+
+  .highlight::before {
+
+    content: '';
+
+    height: 30px;
+
+    width: 100%;
+
+    background: #f0f0f0;
+
+    display: block;
+
+    border-bottom: 1px solid #ddd;
+
+    position: relative;
+
+  }
+
+  
+
+  /* 深色模式下的标题栏样式 */
+
+  .dark .highlight::before {
+
+    background: #0e220f;
+
+    border-bottom: 1px solid #404040;
+
+  }
+
+  
+
+  /* 添加控制按钮 */
+
+  .highlight::after {
+
+    content: '';
+
+    position: absolute;
+
+    top: 9px;
+
+    left: 13px;
+
+    width: 12px;
+
+    height: 12px;
+
+    border-radius: 50%;
+
+    background-color: #ff5f56;
+
+    box-shadow: 20px 0 0 #ffbd2e, 40px 0 0 #27c93f;
+
+    z-index: 1;
+
+  }
+
+  
+
+  /* 代码块内容区域样式 */
+
+  .highlight pre {
+
+    margin: 0;
+
+    padding: 1.5rem;
+
+    width: auto;
+
+  }
+
+  .prose .chroma {
+
+    border-radius: 0;
+
+  }
+
+  /* 代码块复制按钮样式 */
+
+  .copy-button {
+
+    height: 30px;
+
+  }
+
+  
+
+  .highlight:hover .copyCodeButton {
+
+    opacity: 1;
+
+  }
+
+
+/** 加载本地字体 **/
+@font-face {
+    font-family: Commissioner;
+    src: url(https://cdn.jsdmirror.com/gh/Kindle-deep/picx-images-hosting@master/Commissioner.woff2);
+}
+
+@font-face {
+    font-family: HanaMinA;
+    src: url(https://cdn.jsdmirror.com/gh/Kindle-deep/picx-images-hosting@master/HanaMinA.woff2);
+    unicode-range: U+4E00-9FFF;  /* 只包含 CJK 中文范围 */
+}
+
+@font-face {
+    font-family: FZSSK;
+    src: url(https://cdn.jsdmirror.com/gh/Kindle-deep/picx-images-hosting@master/FZSSK.woff2);
+}
+
+@font-face {
+    font-family: Fraunces;
+    src: url(https://cdn.jsdmirror.com/gh/Kindle-deep/picx-images-hosting@master/Fraunces.woff2);
+}
+
+
+/* 全站默认字体（正文） */
+body, html {
+    font-family: 'Commissioner', 'FZSSK' !important;
+    font-weight: normal;
+    line-height: normal;
+  }
+
+/* 导航栏主菜单字体为英文 Fraunces */
+nav a, nav p {
+    font-family: 'Fraunces', 'HanaMinA' !important;
+    font-weight: normal;
+  }
+
+  /* 英文小标题使用 Fraunces */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fraunces', 'HanaMinA' !important;
+    font-weight: normal;
+  }
+
+/* 中文标题样式（作用于 h1-h6） */
+h1:lang(zh), h2:lang(zh), h3:lang(zh), h4:lang(zh), h5:lang(zh), h6:lang(zh) {  
+  font-family: Fraunces, HanaMinA, "PingFang SC", "Noto Serif SC", "Microsoft YaHei";  
+}
+
+/* 给目录的链接加荧光笔效果 */
+#TableOfContents a {
+text-decoration: none;
+color: inherit;
+background-image: linear-gradient(to top, rgba(249, 155, 1, 0.3) 30%, transparent 30%);
+transition: background-size 0.3s ease;
+background-size: 100% 0.4em;
+background-repeat: no-repeat;
+background-position: 0 88%;
+}
+
+#TableOfContents a:hover {
+background-size: 100% 70%;
+background-image: linear-gradient(to top, rgba(249, 155, 1, 0.3) 88%, transparent 88%);
+}
+
+/* 给正文的链接加荧光笔效果 */
+.article-content a {
+text-decoration: none;
+color: inherit;
+background-image: linear-gradient(to top, rgba(249, 155, 1, 0.3) 30%, transparent 30%);
+transition: background-size 0.3s ease;
+background-size: 100% 0.4em;
+background-repeat: no-repeat;
+background-position: 0 88%;
+}
+
+.article-content a:hover {
+background-size: 100% 70%;
+background-image: linear-gradient(to top, rgba(249, 155, 1, 0.3) 88%, transparent 88%);
+}
+
+  /* ---------- 友链卡片样式开始 ---------- */
+    a.friend-link {
+      text-decoration: none;
+      color: inherit;
+      background-size: 0 !important;
+    }
+    
+    a.friend-link:hover {
+      text-decoration: none;
+      color: inherit;
+      background-size: 0 !important;
+    } 
+  
+  .friend-link {  
+    display: block;  
+    width: 100%;  
+    margin: 1rem auto;  
+    text-decoration: none;  
+    border-radius: 12px;  
+    overflow: hidden;  
+    background-color: #fff;  
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);  
+    transition: transform 0.2s ease;  
+  }  
+  
+  .friend-link-div {  
+    display: flex;  
+    align-items: center;  
+    padding: 0 16px;  
+  }  
+  
+  .friend-avatar {  
+    width: 56px;  
+    height: 56px;  
+    border-radius: 50%;  
+    object-fit: cover;  
+    flex-shrink: 0;  
+    margin-right: 10px;  
+  }  
+  
+  .friend-link-info {  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;  
+  }  
+  
+  .friend-name {  
+    font-size: 16px;  
+    font-weight: bolder;  
+    font-style: normal;  
+    color: #444;  
+    margin-bottom: 0;  
+    margin-top: 0;  
+    margin-left: 12px;  
+  }  
+  
+  .friend-bio {  
+    font-size: 14px;  
+    color: #666;  
+    line-height: 1.4;  
+    overflow: hidden;  
+    text-overflow: ellipsis;  
+    margin-top: 0;  
+    margin-bottom: 0;  
+    margin-left: 12px;  
+  }  
+  
+  /* 夜间模式适配 */  .dark .friend-link {  
+    background-color: #5D5470;  
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);  
+  }  
+  
+  .dark .friend-name {  
+    color: #ddd;  
+  }  
+  
+  .dark .friend-bio {  
+    color: #F5F5F5;  
+  }  
+  
+  .dark .friend-avatar {  
+    border-color: #444;  
+  }  
+  
+  /* 响应式优化 */  @media screen and (max-width: 600px) {  
+    .friend-link-div {  
+      flex-direction: row;  
+      padding: 12px 16px;  
+    }  
+  
+    .friend-avatar {  
+      width: 56px;  
+      height: 56px;  
+      margin-right: 12px;  
+    }  
+  
+    .friend-name {  
+      font-size: 16px;  
+    }  
+  
+    .friend-bio {  
+      font-size: 14px;  
+    }  
+  }  
+  /* ---------- 友链卡片样式结束 ---------- */
+  
+  body {  
+  background-image:  
+    linear-gradient(0deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px),  
+    linear-gradient(90deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px);  
+  background-size: 8px 8px;  
+}
+
+b, strong {  
+  margin: 1px 2px;  
+  padding: 2px;  
+  color: rgba(46, 64, 91, 0.94);  
+  background-color: #96d2f0;  
+  font-weight: 400;  
+}  
+
+/* 暗黑模式 */
+.dark b, .dark strong {  
+  margin: 1px 2px;  
+  padding: 2px;  
+  color: #96d2f0;  
+  background-color: rgba(46, 64, 91, 0.94);  
+  font-weight: 400;  
+}
