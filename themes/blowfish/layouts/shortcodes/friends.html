@@ -1,0 +1,36 @@
+{{/* friends.html shortcode - Enhanced version for multiple friend links */}}
+{{/* Usage: {{< friends >}}
+name1|url1|avatar1|bio1
+name2|url2|avatar2|bio2
+{{< /friends >}} */}}
+
+<div class="friends-container">
+  <div class="friends-grid">
+    {{- $content := .Inner | strings.TrimSpace -}}
+    {{- $lines := split $content "\n" -}}
+    {{- range $lines -}}
+      {{- $line := . | strings.TrimSpace -}}
+      {{- if $line -}}
+        {{- $parts := split $line "|" -}}
+        {{- if ge (len $parts) 4 -}}
+          {{- $name := index $parts 0 -}}
+          {{- $url := index $parts 1 -}}
+          {{- $avatar := index $parts 2 -}}
+          {{- $bio := index $parts 3 -}}
+          <a href="{{- $url -}}" title="{{- $name -}}" class="friend-link" target="_blank" rel="friend">
+            <div class="friend-link-div">
+              <div class="friend-link-avatar">
+                <img src="{{- $avatar -}}" class="friend-avatar" loading="lazy" alt="{{- $name -}} Avatar">
+              </div>
+              <div class="friend-link-info">
+                <i class="fa fa-link" aria-hidden="true"></i>
+                <i class="friend-name">{{- $name -}}</i>
+                <p class="friend-bio">{{- $bio -}}</p>
+              </div>
+            </div>
+          </a>
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  </div>
+</div>

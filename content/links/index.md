@@ -10,7 +10,10 @@ showWordCount = false
 showReadingTime = false
 showComments = true
 +++
-<div class="grid grid-cols-1 md:grid-cols-3 gap-4"
-    {{< friend name="天翔TNXGの空间站" url="https://tnxgmoe.com/" avatar="https://api-space.tnxg.top/avatar?s=qq" bio="明日尚未到来，希望凝于心上" >}}
-    {{< friend name="天翔TNXGの空间站" url="https://tnxgmoe.com/" avatar="https://api-space.tnxg.top/avatar?s=qq" bio="明日尚未到来，希望凝于心上" >}}
-</div>
+
+## My Friends
+
+{{< friends >}}
+天翔TNXGの空间站|https://tnxgmoe.com/|https://api-space.tnxg.top/avatar?s=qq|明日尚未到来，希望凝于心上
+天翔TNXGの空间站|https://tnxgmoe.com/|https://api-space.tnxg.top/avatar?s=qq|明日尚未到来，希望凝于心上
+{{< /friends >}}

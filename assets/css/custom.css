@@ -298,6 +298,120 @@ background-image: linear-gradient(to top, rgba(249, 155, 1, 0.3) 88%, transparen
       font-size: 14px;  
     }  
   }  
+
+  /* ---------- 友链集合样式 (Friends Shortcode) ---------- */
+  .friends-container {
+    width: 100%;
+    margin: 2rem 0;
+  }
+
+  .friends-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* 增强友链卡片样式 */
+  .friends-grid .friend-link {
+    margin: 0;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    height: auto;
+    min-height: 120px;
+  }
+
+  .friends-grid .friend-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    border-color: rgba(var(--color-primary-500), 0.2);
+  }
+
+  .friends-grid .friend-link-div {
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .friends-grid .friend-avatar {
+    width: 64px;
+    height: 64px;
+    margin-right: 16px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+  }
+
+  .friends-grid .friend-link:hover .friend-avatar {
+    border-color: rgba(var(--color-primary-500), 0.3);
+  }
+
+  .friends-grid .friend-name {
+    font-size: 18px;
+    margin-left: 0;
+    margin-bottom: 4px;
+  }
+
+  .friends-grid .friend-bio {
+    margin-left: 0;
+    font-size: 13px;
+    opacity: 0.8;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* 夜间模式适配 */
+  .dark .friends-grid .friend-link:hover {
+    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.1);
+    border-color: rgba(var(--color-primary-400), 0.3);
+  }
+
+  .dark .friends-grid .friend-avatar {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .dark .friends-grid .friend-link:hover .friend-avatar {
+    border-color: rgba(var(--color-primary-400), 0.4);
+  }
+
+  /* 响应式优化 */
+  @media screen and (max-width: 768px) {
+    .friends-grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    .friends-grid .friend-link-div {
+      padding: 16px;
+    }
+
+    .friends-grid .friend-avatar {
+      width: 56px;
+      height: 56px;
+      margin-right: 12px;
+    }
+
+    .friends-grid .friend-name {
+      font-size: 16px;
+    }
+
+    .friends-grid .friend-bio {
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .friends-grid {
+      gap: 0.8rem;
+    }
+
+    .friends-grid .friend-link-div {
+      padding: 12px;
+    }
+  }
   /* ---------- 友链卡片样式结束 ---------- */
   
   body {  
