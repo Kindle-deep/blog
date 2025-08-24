@@ -42,8 +42,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.1626969f1cd578a4778832e84be5bead070cdc0a2aa3276cad3546e0d7c0174404cf2c136a805aa4d6bd05aadcbb76bafff07a554ec4d24eca4f1bf0cf6a05b4.css"
-    integrity="sha512-FiaWnxzVeKR3iDLoS&#43;W&#43;rQcM3AoqoydsrTVG4NfAF0QEzywTaoBapNa9Barcu3a6//B6VU7E0k7KTxvwz2oFtA==">
+    href="/css/main.bundle.min.f40ef36380bcf1a70da84d34a9611b31b68f2734622584caf108c8697b370acb3ef3d0eac39662900a4c8c61a4f76f79571483d1729ca90f0408bd92bdbc960b.css"
+    integrity="sha512-9A7zY4C88acNqE00qWEbMbaPJzRiJYTK8QjIaXs3Css&#43;89Dqw5ZikApMjGGk9295VxSD0XKcqQ8ECL2SvbyWCw==">
 
   
   
@@ -492,6 +492,16 @@
 
 
 
+
+  <script>
+    (function () {
+      var $mainmenu = $(".main-menu");
+      var path = window.location.pathname;
+      $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+        $(e).children("p").addClass("active");
+      });
+    })();
+  </script>
 
 
     

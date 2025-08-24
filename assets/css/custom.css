@@ -194,6 +194,31 @@ background-size: 100% 70%;
 background-image: linear-gradient(to top, rgba(249, 155, 1, 0.3) 88%, transparent 88%);
 }
 
+  
+  body {  
+  background-image:  
+    linear-gradient(0deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px),  
+    linear-gradient(90deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px);  
+  background-size: 8px 8px;  
+}
+
+b, strong {  
+  margin: 1px 2px;  
+  padding: 2px;  
+  color: rgba(46, 64, 91, 0.94);  
+  background-color: #96d2f0;  
+  font-weight: 400;  
+}  
+
+/* 暗黑模式 */
+.dark b, .dark strong {  
+  margin: 1px 2px;  
+  padding: 2px;  
+  color: #96d2f0;  
+  background-color: rgba(46, 64, 91, 0.94);  
+  font-weight: 400;  
+}
+
   /* ---------- 友链卡片样式开始 ---------- */
     a.friend-link {
       text-decoration: none;
@@ -298,28 +323,10 @@ background-image: linear-gradient(to top, rgba(249, 155, 1, 0.3) 88%, transparen
       font-size: 14px;  
     }  
   }  
-  /* ---------- 友链卡片样式结束 ---------- */
   
-  body {  
-  background-image:  
-    linear-gradient(0deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px),  
-    linear-gradient(90deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px);  
-  background-size: 8px 8px;  
-}
-
-b, strong {  
-  margin: 1px 2px;  
-  padding: 2px;  
-  color: rgba(46, 64, 91, 0.94);  
-  background-color: #96d2f0;  
-  font-weight: 400;  
-}  
-
-/* 暗黑模式 */
-.dark b, .dark strong {  
-  margin: 1px 2px;  
-  padding: 2px;  
-  color: #96d2f0;  
-  background-color: rgba(46, 64, 91, 0.94);  
-  font-weight: 400;  
-}
+.md\:grid-cols-3 {
+    @media (width >= 853px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  /* ---------- 友链卡片样式结束 ---------- */

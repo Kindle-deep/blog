@@ -25,10 +25,10 @@ disableTextInHeader = false
 
 # defaultBackgroundImage = "IMAGE.jpg" # used as default for background images 
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
-# defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
+defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
 
-# highlightCurrentMenuArea = true
-# smartTOC = true
+ highlightCurrentMenuArea = true
+ smartTOC = true
 # smartTOCHideUnfocusedChildren = true
 
 fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384", "sha256"
@@ -47,8 +47,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showScrollToTop = true
 
 [homepage]
-  layout = "custom" # valid options: page, profile, hero, card, background, custom
-  # homepageImage = "background.avif" # used in: hero, and card
+  layout = "profile" # valid options: page, profile, hero, card, background, custom
+  homepageImage = "img/background.avif" # used in: hero, and card
   showRecent = false
   showRecentItems = 5
   showMoreLink = false
@@ -177,3 +177,4 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # adsense = ""
   
  highlightCurrentMenuArea=true
+ 

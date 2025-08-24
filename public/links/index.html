@@ -42,8 +42,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.1626969f1cd578a4778832e84be5bead070cdc0a2aa3276cad3546e0d7c0174404cf2c136a805aa4d6bd05aadcbb76bafff07a554ec4d24eca4f1bf0cf6a05b4.css"
-    integrity="sha512-FiaWnxzVeKR3iDLoS&#43;W&#43;rQcM3AoqoydsrTVG4NfAF0QEzywTaoBapNa9Barcu3a6//B6VU7E0k7KTxvwz2oFtA==">
+    href="/css/main.bundle.min.f40ef36380bcf1a70da84d34a9611b31b68f2734622584caf108c8697b370acb3ef3d0eac39662900a4c8c61a4f76f79571483d1729ca90f0408bd92bdbc960b.css"
+    integrity="sha512-9A7zY4C88acNqE00qWEbMbaPJzRiJYTK8QjIaXs3Css&#43;89Dqw5ZikApMjGGk9295VxSD0XKcqQ8ECL2SvbyWCw==">
 
   
   
@@ -138,7 +138,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "0"
+    "wordCount": "23"
   }]
   </script>
 
@@ -493,6 +493,16 @@
 
 
 
+  <script>
+    (function () {
+      var $mainmenu = $(".main-menu");
+      var path = window.location.pathname;
+      $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+        $(e).children("p").addClass("active");
+      });
+    })();
+  </script>
+
 
     
     <div class="relative flex flex-col grow">
@@ -603,7 +613,7 @@
         
 
         <div class="article-content max-w-prose mb-20">
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-4"
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
     <a href="https://tnxgmoe.com/" title="天翔TNXGの空间站" class="friend-link" target="_blank" rel="friend">
         <div class="friend-link-div">
             <div class="friend-link-avatar">
@@ -616,19 +626,68 @@
             </div>
         </div>
     </a>
-    <a href="https://tnxgmoe.com/" title="天翔TNXGの空间站" class="friend-link" target="_blank" rel="friend">
+    <a href="https://blog.redish101.top/" title="Redish101 Blog" class="friend-link" target="_blank" rel="friend">
         <div class="friend-link-div">
             <div class="friend-link-avatar">
-                <img src=https://api-space.tnxg.top/avatar?s&#61;qq class="friend-avatar" loading="lazy" alt="Avatar">
+                <img src=https://avatars.githubusercontent.com/u/64068446?v&#61;4 class="friend-avatar" loading="lazy" alt="Avatar">
             </div>
             <div class="friend-link-info">
                 <i class="fa fa-link" aria-hidden="true"></i>
-                <i class="friend-name">天翔TNXGの空间站</i>
-                <p class="friend-bio">明日尚未到来，希望凝于心上</p>
+                <i class="friend-name">Redish101 Blog</i>
+                <p class="friend-bio">学生，人，活的</p>
+            </div>
+        </div>
+    </a>
+    <a href="https://blog.ciraos.top/" title="葱苓语畔" class="friend-link" target="_blank" rel="friend">
+        <div class="friend-link-div">
+            <div class="friend-link-avatar">
+                <img src=https://mx.ciraos.top/api/v2/objects/avatar/ufh295h43mly31gmw0.avif class="friend-avatar" loading="lazy" alt="Avatar">
+            </div>
+            <div class="friend-link-info">
+                <i class="fa fa-link" aria-hidden="true"></i>
+                <i class="friend-name">葱苓语畔</i>
+                <p class="friend-bio">Don&#39;t worry, be happy.</p>
+            </div>
+        </div>
+    </a>
+    <a href="https://blog.liushen.fun/" title="LiuShen&#39;s Blog" class="friend-link" target="_blank" rel="friend">
+        <div class="friend-link-div">
+            <div class="friend-link-avatar">
+                <img src=https://blog.liushen.fun/info/avatar.ico class="friend-avatar" loading="lazy" alt="Avatar">
+            </div>
+            <div class="friend-link-info">
+                <i class="fa fa-link" aria-hidden="true"></i>
+                <i class="friend-name">LiuShen&#39;s Blog</i>
+                <p class="friend-bio">柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜</p>
+            </div>
+        </div>
+    </a>
+    <a href="https://falling42.net/" title="Falling42 Blog" class="friend-link" target="_blank" rel="friend">
+        <div class="friend-link-div">
+            <div class="friend-link-avatar">
+                <img src=https://thirdwx.qlogo.cn/mmopen/vi_32/KicSSliaibI8biaplOUIDiaLWKTzH913EleFR8ZJtLcnPCBukqKG22QossPhl2QyuQYuyFpCIibDnyxyR9MNhxLJtqpPKSFo7frKYfJqSkSVicMTEo/0 class="friend-avatar" loading="lazy" alt="Avatar">
+            </div>
+            <div class="friend-link-info">
+                <i class="fa fa-link" aria-hidden="true"></i>
+                <i class="friend-name">Falling42 Blog</i>
+                <p class="friend-bio">Fate lies within the light cone.</p>
+            </div>
+        </div>
+    </a>
+    <a href="https://sfkm.me/" title="Snowykami" class="friend-link" target="_blank" rel="friend">
+        <div class="friend-link-div">
+            <div class="friend-link-avatar">
+                <img src=https://cdn.liteyuki.org/snowykami/avatar.jpg class="friend-avatar" loading="lazy" alt="Avatar">
+            </div>
+            <div class="friend-link-info">
+                <i class="fa fa-link" aria-hidden="true"></i>
+                <i class="friend-name">Snowykami</i>
+                <p class="friend-bio">轻思若水，雪化生香。</p>
             </div>
         </div>
     </a>
 </div>
+
           
           
           
@@ -774,7 +833,16 @@ twikoo.init({
     </footer>
   </article>
 
-        
+        <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0 z-10">
+  <a
+    href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top"
+    title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+
       </main><footer id="site-footer" class="py-10 print:hidden">
   
   

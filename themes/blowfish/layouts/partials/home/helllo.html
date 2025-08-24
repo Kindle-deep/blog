@@ -14,15 +14,15 @@
   
         <!-- 文字区块 -->  
         <div class="lg:w-1/2 text-right flex flex-col justify-center">  
-            {{ with .Params.title }}  
+            {{ with .Title }}  
             <h1 class="text-4xl lg:text-5xl font-semibold mb-4 leading-tight max-w-md mx-auto lg:mx-0">{{ . }}</h1>  
             {{ end }}  
   
-            {{ with .Params.subtitle }}  
+            {{ with .Subtitle }}  
             <h2 class="text-sm uppercase tracking-widest font-bold text-gray-500 mb-6 max-w-md mx-auto lg:mx-0">{{ . }}</h2>  
             {{ end }}  
   
-            {{ with .Params.description }}  
+            {{ with .Description }}  
             <p class="text-lg text-gray-700 mb-8 mt-6 leading-relaxed max-w-md mx-auto lg:mx-0 whitespace-nowrap">{{ . | markdownify }}</p>  
             {{ end }}  
         </div>  
