@@ -18,7 +18,7 @@ showComments = true
     {{< friend name="LiuShen's Blog" url="https://blog.liushen.fun/" avatar="https://blog.liushen.fun/info/avatar.ico" bio="柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜" >}}
     {{< friend name="Falling42 Blog" url="https://falling42.net/" avatar="https://thirdwx.qlogo.cn/mmopen/vi_32/KicSSliaibI8biaplOUIDiaLWKTzH913EleFR8ZJtLcnPCBukqKG22QossPhl2QyuQYuyFpCIibDnyxyR9MNhxLJtqpPKSFo7frKYfJqSkSVicMTEo/0" bio="Fate lies within the light cone." >}}
     {{< friend name="Snowykami" url="https://sfkm.me/" avatar="https://cdn.liteyuki.org/snowykami/avatar.jpg" bio="轻思若水，雪化生香。" >}}
-    
+    {{< friend name="世上云川" url="https://blog.ssyc.me/" avatar="https://blog.ssyc.me/upload/b008f7ca-9316-463f-afdf-0b12ee900668.png" bio="https://blog.ssyc.me/" >}}
 </div>
 
 ## 我的信息
