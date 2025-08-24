@@ -2,11 +2,16 @@
 date = '2025-08-23T17:59:26+08:00'
 draft = false
 title = 'About'
+showDate = false
+showPagination = false
+showTableOfContents = false
+showWordCount = false
+showReadingTime = false
 +++
 ## 👋 Hello, I'm Chinyuan Tai.
 A high school sophomore passionate about technology and music.
 <br>一位热爱科技与音乐的高二学生。
-你可以通过邮件与我取得联系`chinyuan@knlde.top`
+<br>你可以通过邮件与我取得联系`chinyuan@knlde.top`
 ## 🚨关于本站
 ~~Just for fun~~为了分享日常生活中所见所感与学习中的思考，于此小天地留一处安栖之地。
 ## 🚧一些个人声明
