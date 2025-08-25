@@ -176,6 +176,29 @@
   
 
 
+  
+
+  <script
+    data-id="umami-script"
+    async
+    src="https://cloud.umami.is/script"
+    data-website-id="40d32dc8-3116-4a83-a7f1-a19d3423acb5"
+    data-domains="blog.knlde.top"></script>
+
+
+
+
+  <script type="text/javascript">
+    document.querySelector('script[data-id="umami-script"]').addEventListener("load", function () {
+      const type = document.head.querySelector('meta[property = "og:type"]').getAttribute("content");
+      let title = document.head.querySelector('meta[property = "og:title"]').getAttribute("content");
+      let url = document.head.querySelector('meta[property = "og:url"]').getAttribute("content");
+      umami.track(type + ":" + title, { url: url });
+    });
+  </script>
+
+
+
 
 
 
