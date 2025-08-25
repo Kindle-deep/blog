@@ -146,7 +146,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [umamiAnalytics]
   websiteid = "40d32dc8-3116-4a83-a7f1-a19d3423acb5"
-  domain = ""
+  domain = "https://cloud.umami.is/"
   dataDomains = "blog.knlde.top"
   scriptName = "script.js"
   enableTrackEvent = true
